@@ -1,18 +1,13 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import {classes} from './mainStyle'
+import Post from '../Post/Post'
 
 function Main(){
-    
-    const {
-        title,
-    }=classes
-    
-    
-    
     return(
-        <div className = {title}>Hello</div>
-        // <div className = {classes.title}>Hello</div>      или так
-
+        <Fragment>
+         <div className = {classes.title}>Hello</div>
+            <Post/>
+        </Fragment>
         )
 };
 export default Main;
