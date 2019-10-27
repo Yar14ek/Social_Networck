@@ -1,19 +1,15 @@
-import jss from 'jss'
-import preset from 'jss-preset-default'
+import jss from "jss";
+import preset from "jss-preset-default";
 
-jss.setup(preset())
+jss.setup(preset());
 
-const mainStyle ={
-title:{
-    color: 'red',
-    '&:hover':{
-        color:'blue'
+const mainStyle = {
+  title: {
+    color: "red",
+    "&:hover": {
+      color: "blue"
     }
-},
-}
+  }
+};
 
-
-
-
-
-export const {classes}= jss.createStyleSheet(mainStyle).attach();
+export const { classes } = jss.createStyleSheet(mainStyle).attach();
