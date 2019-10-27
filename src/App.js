@@ -3,9 +3,8 @@ import Main from "./componens/Main/Main";
 
 function App() {
   return (
-    <div>
+    
       <Main />
-    </div>
   );
 }
 
